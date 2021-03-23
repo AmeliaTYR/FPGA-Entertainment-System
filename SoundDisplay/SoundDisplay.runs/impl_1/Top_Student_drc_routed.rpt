@@ -1,0 +1,144 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sat Apr  4 23:47:36 2020
+| Host         : LAPTOP-BEHVP6UK running 64-bit major release  (build 9200)
+| Command      : report_drc -file Top_Student_drc_routed.rpt -pb Top_Student_drc_routed.pb -rpx Top_Student_drc_routed.rpx
+| Design       : Top_Student
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 13
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| CFGBVS-1    | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties         | 1          |
+| PDRC-153    | Warning  | Gated clock check                                           | 8          |
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 4          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CFGBVS-1#1 Warning
+Missing CFGBVS and CONFIG_VOLTAGE Design Properties  
+Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+Related violations: <none>
+
+PDRC-153#1 Warning
+Gated clock check  
+Net audioC/E[0] is a gated clock net sourced by a combinational pin audioC/mic_out_reg[4]_i_2__0/O, cell audioC/mic_out_reg[4]_i_2__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net button_D/DFF_1/bD is a gated clock net sourced by a combinational pin button_D/DFF_1/btnD_flip_i_2/O, cell button_D/DFF_1/btnD_flip_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net button_L/DFF_1/bL is a gated clock net sourced by a combinational pin button_L/DFF_1/btnL_flip_i_2/O, cell button_L/DFF_1/btnL_flip_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net button_R/DFF_1/bR is a gated clock net sourced by a combinational pin button_R/DFF_1/btnR_flip_i_2/O, cell button_R/DFF_1/btnR_flip_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net button_U/DFF_1/bU is a gated clock net sourced by a combinational pin button_U/DFF_1/btnU_flip_i_2/O, cell button_U/DFF_1/btnU_flip_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net ms_paint/E[0] is a gated clock net sourced by a combinational pin ms_paint/data_color_reg[15]_i_2/O, cell ms_paint/data_color_reg[15]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#7 Warning
+Gated clock check  
+Net ms_paint/oled_data_reg[5]_0[0] is a gated clock net sourced by a combinational pin ms_paint/current_color_reg[15]_i_2/O, cell ms_paint/current_color_reg[15]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#8 Warning
+Gated clock check  
+Net peak_amp/E[0] is a gated clock net sourced by a combinational pin peak_amp/mic_out_reg[4]_i_2/O, cell peak_amp/mic_out_reg[4]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT button_D/DFF_1/btnD_flip_i_2 is driving clock pin of 5 cells. This could lead to large hold time violations. First few involved cells are:
+    G2_M4_processor/btnD_flip_reg {FDRE}
+    G2_mode_selector/btnD_flip_reg {FDRE}
+    advanced_mode/btnD_flip_reg {FDRE}
+    menu_mode_select/btnD_flip_reg {FDRE}
+    ms_paint/btnD_flip_reg {FDRE}
+
+Related violations: <none>
+
+PLHOLDVIO-2#2 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT button_L/DFF_1/btnL_flip_i_2 is driving clock pin of 11 cells. This could lead to large hold time violations. First few involved cells are:
+    G2_M4_processor/btnL_flip_reg {FDRE}
+    mode_1/btnL_flip_reg {FDRE}
+    mode_2/btnL_flip_reg {FDRE}
+    mode_3/btnL_flip_reg {FDRE}
+    mode_4/btnL_flip_reg {FDRE}
+    mode_5/btnL_flip_reg {FDRE}
+    mode_6/btnL_flip_reg {FDRE}
+    mode_7/btnL_flip_reg {FDRE}
+    ms_paint/btnL_flip_reg {FDRE}
+
+Related violations: <none>
+
+PLHOLDVIO-2#3 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT button_R/DFF_1/btnR_flip_i_2 is driving clock pin of 12 cells. This could lead to large hold time violations. First few involved cells are:
+    G2_M4_processor/btnR_flip_reg {FDRE}
+    menu_mode_select/btnR_flip_reg {FDRE}
+    mode_1/btnR_flip_reg {FDRE}
+    mode_2/btnR_flip_reg {FDRE}
+    mode_3/btnR_flip_reg {FDRE}
+    mode_4/btnR_flip_reg {FDRE}
+    mode_5/btnR_flip_reg {FDRE}
+    mode_6/btnR_flip_reg {FDRE}
+    mode_7/btnR_flip_reg {FDRE}
+
+Related violations: <none>
+
+PLHOLDVIO-2#4 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT button_U/DFF_1/btnU_flip_i_2 is driving clock pin of 6 cells. This could lead to large hold time violations. First few involved cells are:
+    G2_M4_processor/btnU_flip_reg {FDRE}
+    G2_mode_selector/btnU_flip_reg {FDRE}
+    advanced_mode/btnU_flip_reg {FDRE}
+    basic_over/bU_flip_reg {FDRE}
+    menu_mode_select/btnU_flip_reg {FDRE}
+    ms_paint/btnU_flip_reg {FDRE}
+
+Related violations: <none>
+
+

@@ -1,0 +1,230 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date             : Sat Apr  4 23:47:49 2020
+| Host             : LAPTOP-BEHVP6UK running 64-bit major release  (build 9200)
+| Command          : report_power -file Top_Student_power_routed.rpt -pb Top_Student_power_summary_routed.pb -rpx Top_Student_power_routed.rpx
+| Design           : Top_Student
+| Device           : xc7a35tcpg236-1
+| Design State     : routed
+| Grade            : commercial
+| Process          : typical
+| Characterization : Production
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 0.184        |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 0.112        |
+| Device Static (W)        | 0.072        |
+| Effective TJA (C/W)      | 5.0          |
+| Max Ambient (C)          | 84.1         |
+| Junction Temperature (C) | 25.9         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++----------------+-----------+----------+-----------+-----------------+
+| On-Chip        | Power (W) | Used     | Available | Utilization (%) |
++----------------+-----------+----------+-----------+-----------------+
+| Clocks         |     0.026 |        3 |       --- |             --- |
+| Slice Logic    |     0.038 |    20164 |       --- |             --- |
+|   LUT as Logic |     0.037 |    13824 |     20800 |           66.46 |
+|   Register     |    <0.001 |     2538 |     41600 |            6.10 |
+|   CARRY4       |    <0.001 |      604 |      8150 |            7.41 |
+|   F7/F8 Muxes  |    <0.001 |      342 |     32600 |            1.05 |
+|   Others       |     0.000 |      148 |       --- |             --- |
+|   BUFG         |     0.000 |        4 |        32 |           12.50 |
+| Signals        |     0.045 |    17420 |       --- |             --- |
+| I/O            |     0.003 |       50 |       106 |           47.17 |
+| Static Power   |     0.072 |          |           |                 |
+| Total          |     0.184 |          |           |                 |
++----------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       1.000 |     0.119 |       0.109 |      0.010 |
+| Vccaux    |       1.800 |     0.013 |       0.000 |      0.013 |
+| Vcco33    |       3.300 |     0.002 |       0.001 |      0.001 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                             |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                                    |
+| Clock nodes activity        | Medium     | More than 5% of clocks are missing user specification  | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
+| Device models               | High       | Device models are Production                           |                                                                                                                    |
+|                             |            |                                                        |                                                                                                                    |
+| Overall confidence level    | Low        |                                                        |                                                                                                                    |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 5.0                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 4.6                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-------------+-----------+-----------------+
+| Clock       | Domain    | Constraint (ns) |
++-------------+-----------+-----------------+
+| sys_clk_pin | basys_clk |            10.0 |
++-------------+-----------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++-------------------------+-----------+
+| Name                    | Power (W) |
++-------------------------+-----------+
+| Top_Student             |     0.112 |
+|   G2M4_renderer         |    <0.001 |
+|   G2_M4_processor       |     0.002 |
+|   G2_decoder0           |    <0.001 |
+|   G2_decoder1           |    <0.001 |
+|   G2_decoder2           |    <0.001 |
+|   G2_decoder3           |    <0.001 |
+|   G2_display0           |    <0.001 |
+|   G2_display3           |    <0.001 |
+|   G2_display_mux        |    <0.001 |
+|   G2_mode_selector      |     0.004 |
+|   G2_normal_render      |     0.001 |
+|   adv_mode_2_render     |    <0.001 |
+|   advanced_mode         |     0.001 |
+|   audioC                |    <0.001 |
+|   basic_over            |    <0.001 |
+|   button_D              |     0.000 |
+|     DFF_1               |     0.000 |
+|     DFF_2               |     0.000 |
+|   button_L              |     0.000 |
+|     DFF_1               |     0.000 |
+|     DFF_2               |     0.000 |
+|   button_R              |     0.000 |
+|     DFF_1               |     0.000 |
+|     DFF_2               |     0.000 |
+|   button_U              |     0.000 |
+|     DFF_1               |     0.000 |
+|     DFF_2               |     0.000 |
+|   clk_oled              |    <0.001 |
+|   clk_segment           |    <0.001 |
+|   clk_slow              |    <0.001 |
+|   clk_voice             |    <0.001 |
+|   despawn_clk           |    <0.001 |
+|   explosion_despawn_clk |    <0.001 |
+|   game_processor        |     0.005 |
+|   laser_despawn_clk     |    <0.001 |
+|   laser_power           |    <0.001 |
+|   laser_spawn_clk       |    <0.001 |
+|   menu_mode_select      |     0.001 |
+|   mic_range             |    <0.001 |
+|   mode_1                |    <0.001 |
+|   mode_2                |    <0.001 |
+|   mode_3                |    <0.001 |
+|   mode_4                |    <0.001 |
+|   mode_5                |    <0.001 |
+|   mode_6                |    <0.001 |
+|   mode_7                |    <0.001 |
+|   ms_paint              |     0.065 |
+|   n1                    |    <0.001 |
+|   n2                    |    <0.001 |
+|   nolabel_line208       |    <0.001 |
+|   oled_display_mux      |    <0.001 |
+|   p1sec_clk             |    <0.001 |
+|   p5sec_clk             |    <0.001 |
+|   p_tracker             |    <0.001 |
+|   paint_render          |    <0.001 |
+|   peak_amp              |    <0.001 |
+|   peak_range            |    <0.001 |
+|   peakdisplay0          |     0.000 |
+|   peakdisplay3          |     0.000 |
+|   peakn0                |    <0.001 |
+|   peakn1                |    <0.001 |
+|   peakn2                |    <0.001 |
+|   peakn3                |    <0.001 |
+|   random                |     0.001 |
+|   reset_pulse           |     0.000 |
+|     DFF_1               |     0.000 |
+|     DFF_2               |     0.000 |
+|   score_decoder0        |    <0.001 |
+|   score_decoder1        |    <0.001 |
+|   score_decoder2        |    <0.001 |
+|   score_decoder3        |    <0.001 |
+|   score_display0        |    <0.001 |
+|   score_display3        |    <0.001 |
+|   score_track           |     0.004 |
+|   segment_G2_mod        |    <0.001 |
+|   segment_peak_mod      |    <0.001 |
+|   segment_score_mod     |    <0.001 |
+|   segment_select        |    <0.001 |
+|   sev_seg_disp          |    <0.001 |
+|   spawn_clk             |    <0.001 |
+|   stars_clk             |    <0.001 |
+|   unit_oled             |     0.008 |
++-------------------------+-----------+
+
+

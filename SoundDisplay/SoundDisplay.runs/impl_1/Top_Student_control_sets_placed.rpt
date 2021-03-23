@@ -1,0 +1,156 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sat Apr  4 23:45:08 2020
+| Host         : LAPTOP-BEHVP6UK running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Student_control_sets_placed.rpt
+| Design       : Top_Student
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    86 |
+| Unused register locations in slices containing registers |   292 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |           28 |
+|      4 |            1 |
+|      8 |            8 |
+|     10 |            5 |
+|     12 |            2 |
+|     14 |            1 |
+|    16+ |           41 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            3584 |         1137 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |            1094 |          157 |
+| Yes          | No                    | No                     |             144 |           36 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             254 |           46 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------+-----------------------------------------+--------------------------------------------+------------------+----------------+
+|            Clock Signal           |              Enable Signal              |              Set/Reset Signal              | Slice Load Count | Bel Load Count |
++-----------------------------------+-----------------------------------------+--------------------------------------------+------------------+----------------+
+|  spawn_clk/clk0p375sec            |                                         |                                            |                1 |              2 |
+|  game_processor/EA1_hit           |                                         |                                            |                1 |              2 |
+|  game_processor/EA2_hit           |                                         |                                            |                1 |              2 |
+|  game_processor/EB_hit            |                                         |                                            |                1 |              2 |
+|  ms_paint/game_over_4             |                                         |                                            |                1 |              2 |
+|  G2_mode_selector/game_over_3     |                                         |                                            |                1 |              2 |
+|  mode_1/done_1                    |                                         |                                            |                1 |              2 |
+|  mode_2/done_2                    |                                         |                                            |                1 |              2 |
+|  mode_3/done_3                    |                                         |                                            |                1 |              2 |
+|  mode_4/done_4                    |                                         |                                            |                1 |              2 |
+|  mode_5/done_5                    |                                         |                                            |                1 |              2 |
+|  mode_6/done_6                    |                                         |                                            |                1 |              2 |
+|  mode_7/done_7                    |                                         |                                            |                1 |              2 |
+|  basys_clk_IBUF_BUFG              |                                         | mode_5/flag_count[2]                       |                1 |              2 |
+| ~clk6p25m_BUFG                    |                                         |                                            |                1 |              2 |
+|  game_processor/EA3_hit           |                                         |                                            |                1 |              2 |
+|  basic_over/game_over_1           |                                         |                                            |                1 |              2 |
+|  advanced_mode/game_over_2        |                                         |                                            |                1 |              2 |
+|  explosion_despawn_clk/clk0p75sec |                                         |                                            |                1 |              2 |
+|  laser_despawn_clk/clk0p125sec    |                                         |                                            |                1 |              2 |
+|  basys_clk_IBUF_BUFG              |                                         | mode_6/flag_count[2]                       |                1 |              2 |
+|  p1sec_clk/tick_flip_reg          |                                         |                                            |                1 |              2 |
+|  basys_clk_IBUF_BUFG              |                                         | mode_7/flag_count[2]                       |                1 |              2 |
+|  basys_clk_IBUF_BUFG              |                                         | mode_4/flag_count[2]                       |                1 |              2 |
+|  basys_clk_IBUF_BUFG              |                                         | mode_1/flag_count[2]                       |                1 |              2 |
+|  basys_clk_IBUF_BUFG              |                                         | mode_2/flag_count[2]                       |                1 |              2 |
+|  basys_clk_IBUF_BUFG              |                                         | mode_3/flag_count[2]                       |                1 |              2 |
+|  clk381_BUFG                      |                                         | segment_select/seg0__0                     |                1 |              2 |
+|  despawn_clk/despawn_clk          |                                         |                                            |                2 |              4 |
+|  stars_clk/CLK                    |                                         | adv_mode_2_render/clear                    |                1 |              8 |
+|  basys_clk_IBUF_BUFG              | menu_mode_select/btnR_flag0             | menu_mode_select/menu_mode0                |                1 |              8 |
+|  basys_clk_IBUF_BUFG              | menu_mode_select/choice[3]_i_2_n_33     | menu_mode_select/choice0                   |                1 |              8 |
+|  basys_clk_IBUF_BUFG              | mode_7/option_7[3]_i_1_n_33             |                                            |                1 |              8 |
+|  basys_clk_IBUF_BUFG              | game_processor/explosion_x[3]_i_1_n_33  | game_processor/explosion_x[2]_i_1_n_33     |                3 |              8 |
+|  basys_clk_IBUF_BUFG              | game_processor/laser_exist[3]_i_1_n_33  |                                            |                1 |              8 |
+|  basys_clk_IBUF_BUFG              |                                         | G2_display_mux/oled_data[4]_i_1_n_33       |                4 |              8 |
+|  basys_clk_IBUF_BUFG              | game_processor/explosion_x[3]_i_1_n_33  |                                            |                3 |              8 |
+|  audioC/E[0]                      |                                         |                                            |                2 |             10 |
+|  p5sec_clk/clk0p5sec              |                                         |                                            |                4 |             10 |
+|  peak_amp/E[0]                    |                                         |                                            |                2 |             10 |
+|  button_D/DFF_1/bD                |                                         |                                            |                5 |             10 |
+|  basys_clk_IBUF_BUFG              | led_freeze[4]_i_1_n_33                  |                                            |                3 |             10 |
+|  p5sec_clk/clk0p5sec              |                                         | G2M4_renderer/count[5]_i_1_n_33            |                2 |             12 |
+|  button_U/DFF_1/bU                |                                         |                                            |                5 |             12 |
+|  clk381_BUFG                      | segment_select/seg_n_33                 | segment_select/seg0__0                     |                3 |             14 |
+|  laser_spawn_clk/laser_clk        |                                         |                                            |                5 |             16 |
+|  reset_BUFG                       |                                         |                                            |                6 |             16 |
+|  basys_clk_IBUF_BUFG              | mode_7/E[0]                             | G2_mode_selector/p_1_in[3]                 |                5 |             16 |
+|  basys_clk_IBUF_BUFG              | G2_mode_selector/tick3_flag             | peak_amp/med_noise_period_reg[8]_0         |                3 |             18 |
+|  clk_slow/my_clk                  |                                         |                                            |                3 |             20 |
+|  basys_clk_IBUF_BUFG              | G2_mode_selector/tick3_flag             | peak_amp/high_noise_period_reg[10]         |                3 |             20 |
+|  button_L/DFF_1/bL                |                                         |                                            |               10 |             22 |
+| ~audioC/J_MIC3_Pin4_OBUF          |                                         |                                            |                4 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG            |                                         | G2_mode_selector/tick3_flip[11]_i_1_n_33   |                4 |             24 |
+|  J_MIC3_Pin1_OBUF_BUFG            | peak_amp/count[13]_i_1_n_33             |                                            |                5 |             24 |
+|  basys_clk_IBUF_BUFG              |                                         | J_MIC3_Pin1_OBUF_BUFG                      |                3 |             24 |
+|  button_R/DFF_1/bR                |                                         |                                            |                9 |             24 |
+|  p5sec_clk/clk0p5sec              | G2M4_renderer/color_ship_c[14]_i_1_n_33 |                                            |                3 |             26 |
+|  J_MIC3_Pin1_OBUF_BUFG            |                                         | peak_amp/count[13]_i_1_n_33                |                4 |             26 |
+|  basys_clk_IBUF_BUFG              | score_track/lastscore[12]_i_1_n_33      |                                            |               10 |             26 |
+|  basys_clk_IBUF_BUFG              | score_track/score[0]_i_2_n_33           | score_track/score[0]_i_1_n_33              |                4 |             26 |
+|  basys_clk_IBUF_BUFG              | mode_7/flag_1_to_3_reg                  | mode_7/count7_reg[31]                      |                8 |             32 |
+|  ms_paint/E[0]                    |                                         |                                            |                7 |             32 |
+|  ms_paint/oled_data_reg[5]_0[0]   |                                         |                                            |                5 |             32 |
+| ~clk6p25m_BUFG                    |                                         | reset_BUFG                                 |                5 |             34 |
+|  basys_clk_IBUF_BUFG              | mode_7/flag_1_to_3_reg                  |                                            |               10 |             34 |
+| ~clk6p25m_BUFG                    | unit_oled/delay[0]_i_1_n_33             | reset_BUFG                                 |                5 |             40 |
+|  basys_clk_IBUF_BUFG              |                                         | advanced_mode/timer_count_b[20]_i_1_n_33   |                9 |             42 |
+|  basys_clk_IBUF_BUFG              |                                         | advanced_mode/timer_count_a[0]_i_1_n_33    |                6 |             42 |
+|  J_MIC3_Pin1_OBUF_BUFG            |                                         |                                            |               10 |             50 |
+|  basys_clk_IBUF_BUFG              |                                         | explosion_despawn_clk/count[0]_i_1__6_n_33 |                8 |             64 |
+|  basys_clk_IBUF_BUFG              |                                         | laser_despawn_clk/count[0]_i_1__7_n_33     |                8 |             64 |
+|  basys_clk_IBUF_BUFG              |                                         | laser_spawn_clk/count[0]_i_1__2_n_33       |                8 |             64 |
+|  basys_clk_IBUF_BUFG              |                                         | p1sec_clk/count[0]_i_1__4_n_33             |                8 |             64 |
+| ~clk6p25m_BUFG                    | unit_oled/state                         | reset_BUFG                                 |               10 |             64 |
+|  basys_clk_IBUF_BUFG              |                                         | stars_clk/count[0]_i_1__5_n_33             |                8 |             64 |
+|  basys_clk_IBUF_BUFG              |                                         | clk_oled/count[0]_i_1__12_n_33             |                8 |             64 |
+|  basys_clk_IBUF_BUFG              |                                         | p5sec_clk/count[0]_i_1__3_n_33             |                8 |             64 |
+|  basys_clk_IBUF_BUFG              |                                         | clk_voice/count[0]_i_1__11_n_33            |                8 |             64 |
+|  basys_clk_IBUF_BUFG              |                                         | despawn_clk/count[0]_i_1__8_n_33           |                8 |             64 |
+|  basys_clk_IBUF_BUFG              |                                         | spawn_clk/count[0]_i_1__9_n_33             |                8 |             64 |
+|  basys_clk_IBUF_BUFG              |                                         | clk_segment/count[0]_i_1__10_n_33          |                8 |             64 |
+|  basys_clk_IBUF_BUFG              |                                         | clk_slow/count[0]_i_1__1_n_33              |                8 |             64 |
+|  clk381_BUFG                      |                                         |                                            |               13 |             88 |
+| ~clk6p25m_BUFG                    |                                         | unit_oled/spi_word[39]_i_1_n_33            |               15 |             90 |
+|  basys_clk_IBUF_BUFG              |                                         |                                            |             1025 |           3164 |
++-----------------------------------+-----------------------------------------+--------------------------------------------+------------------+----------------+
+
+

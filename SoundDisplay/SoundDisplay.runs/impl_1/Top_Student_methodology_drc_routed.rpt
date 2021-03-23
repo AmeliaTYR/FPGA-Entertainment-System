@@ -1,0 +1,2733 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Sat Apr  4 23:47:41 2020
+| Host         : LAPTOP-BEHVP6UK running 64-bit major release  (build 9200)
+| Command      : report_methodology -file Top_Student_methodology_drc_routed.rpt -pb Top_Student_methodology_drc_routed.pb -rpx Top_Student_methodology_drc_routed.rpx
+| Design       : Top_Student
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 539
++-----------+----------+-------------------------------+------------+
+| Rule      | Severity | Description                   | Violations |
++-----------+----------+-------------------------------+------------+
+| TIMING-16 | Warning  | Large setup violation         | 94         |
+| TIMING-17 | Warning  | Non-clocked sequential cell   | 350        |
+| TIMING-18 | Warning  | Missing input or output delay | 53         |
+| TIMING-20 | Warning  | Non-clocked latch             | 42         |
++-----------+----------+-------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-16#1 Warning
+Large setup violation  
+There is a large setup violation of -1.005 ns between G2_M4_processor/time_taken_reg[5]/C (clocked by sys_clk_pin) and G2_decoder2/display_seg_reg[4]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#2 Warning
+Large setup violation  
+There is a large setup violation of -1.009 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[25]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#3 Warning
+Large setup violation  
+There is a large setup violation of -1.009 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[26]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#4 Warning
+Large setup violation  
+There is a large setup violation of -1.009 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[27]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#5 Warning
+Large setup violation  
+There is a large setup violation of -1.020 ns between game_processor/laser_exist_reg[1]/C (clocked by sys_clk_pin) and game_processor/EA2_y_reg[0]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#6 Warning
+Large setup violation  
+There is a large setup violation of -1.026 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[23]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#7 Warning
+Large setup violation  
+There is a large setup violation of -1.026 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[24]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#8 Warning
+Large setup violation  
+There is a large setup violation of -1.027 ns between G2_M4_processor/time_taken_reg[5]/C (clocked by sys_clk_pin) and G2_decoder2/display_seg_reg[0]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#9 Warning
+Large setup violation  
+There is a large setup violation of -1.036 ns between G2_mode_selector/mode_reg[1]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[0]/S (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#10 Warning
+Large setup violation  
+There is a large setup violation of -1.038 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/file_2_a_reg[11][2][2]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#11 Warning
+Large setup violation  
+There is a large setup violation of -1.039 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[26]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#12 Warning
+Large setup violation  
+There is a large setup violation of -1.043 ns between G2_M4_processor/time_taken_reg[5]/C (clocked by sys_clk_pin) and G2_decoder2/display_seg_reg[6]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#13 Warning
+Large setup violation  
+There is a large setup violation of -1.062 ns between G2_mode_selector/mode_reg[1]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[4]/S (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#14 Warning
+Large setup violation  
+There is a large setup violation of -1.067 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/file_2_a_reg[7][11][1]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#15 Warning
+Large setup violation  
+There is a large setup violation of -1.072 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/file_2_a_reg[5][11][2]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#16 Warning
+Large setup violation  
+There is a large setup violation of -1.075 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[31]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#17 Warning
+Large setup violation  
+There is a large setup violation of -1.084 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[7]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#18 Warning
+Large setup violation  
+There is a large setup violation of -1.130 ns between G2_mode_selector/mode_reg[1]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[3]/S (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#19 Warning
+Large setup violation  
+There is a large setup violation of -1.167 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[17]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#20 Warning
+Large setup violation  
+There is a large setup violation of -1.167 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[19]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#21 Warning
+Large setup violation  
+There is a large setup violation of -1.167 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[20]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#22 Warning
+Large setup violation  
+There is a large setup violation of -1.171 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[13]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#23 Warning
+Large setup violation  
+There is a large setup violation of -1.171 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[16]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#24 Warning
+Large setup violation  
+There is a large setup violation of -1.215 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[1]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#25 Warning
+Large setup violation  
+There is a large setup violation of -1.222 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[10]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#26 Warning
+Large setup violation  
+There is a large setup violation of -1.222 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[11]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#27 Warning
+Large setup violation  
+There is a large setup violation of -1.222 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[9]/R (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#28 Warning
+Large setup violation  
+There is a large setup violation of -1.230 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[7]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#29 Warning
+Large setup violation  
+There is a large setup violation of -1.239 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/j_3_reg[6]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#30 Warning
+Large setup violation  
+There is a large setup violation of -1.281 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[4]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#31 Warning
+Large setup violation  
+There is a large setup violation of -1.300 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/j_3_reg[0]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#32 Warning
+Large setup violation  
+There is a large setup violation of -1.322 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[5]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#33 Warning
+Large setup violation  
+There is a large setup violation of -1.349 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[12]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#34 Warning
+Large setup violation  
+There is a large setup violation of -1.476 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/j_3_reg[8]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#35 Warning
+Large setup violation  
+There is a large setup violation of -1.513 ns between ms_paint/cursor_y_reg[5]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[6]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#36 Warning
+Large setup violation  
+There is a large setup violation of -1.529 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[15]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#37 Warning
+Large setup violation  
+There is a large setup violation of -1.593 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[22]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#38 Warning
+Large setup violation  
+There is a large setup violation of -1.610 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[14]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#39 Warning
+Large setup violation  
+There is a large setup violation of -1.628 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[8]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#40 Warning
+Large setup violation  
+There is a large setup violation of -1.631 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[6]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#41 Warning
+Large setup violation  
+There is a large setup violation of -1.681 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[5]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#42 Warning
+Large setup violation  
+There is a large setup violation of -1.720 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/j_2_reg[7]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#43 Warning
+Large setup violation  
+There is a large setup violation of -1.735 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[21]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#44 Warning
+Large setup violation  
+There is a large setup violation of -1.794 ns between ms_paint/cursor_y_reg[5]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[12]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#45 Warning
+Large setup violation  
+There is a large setup violation of -1.795 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[0]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#46 Warning
+Large setup violation  
+There is a large setup violation of -1.808 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[10]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#47 Warning
+Large setup violation  
+There is a large setup violation of -1.808 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[28]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#48 Warning
+Large setup violation  
+There is a large setup violation of -1.821 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[8]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#49 Warning
+Large setup violation  
+There is a large setup violation of -1.829 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[18]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#50 Warning
+Large setup violation  
+There is a large setup violation of -1.841 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[13]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#51 Warning
+Large setup violation  
+There is a large setup violation of -1.872 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[29]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#52 Warning
+Large setup violation  
+There is a large setup violation of -2.018 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/count7_reg[30]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#53 Warning
+Large setup violation  
+There is a large setup violation of -2.050 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[1]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#54 Warning
+Large setup violation  
+There is a large setup violation of -2.061 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[11]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#55 Warning
+Large setup violation  
+There is a large setup violation of -2.090 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[4]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#56 Warning
+Large setup violation  
+There is a large setup violation of -2.103 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/reset_file_1_reg/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#57 Warning
+Large setup violation  
+There is a large setup violation of -2.106 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/j_2_reg[8]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#58 Warning
+Large setup violation  
+There is a large setup violation of -2.160 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/j_2_reg[6]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#59 Warning
+Large setup violation  
+There is a large setup violation of -2.246 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[15]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#60 Warning
+Large setup violation  
+There is a large setup violation of -2.264 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[2]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#61 Warning
+Large setup violation  
+There is a large setup violation of -2.298 ns between advanced_mode/mode_reg[1]/C (clocked by sys_clk_pin) and score_decoder2/display_seg_reg[1]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#62 Warning
+Large setup violation  
+There is a large setup violation of -2.354 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[14]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#63 Warning
+Large setup violation  
+There is a large setup violation of -2.378 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/reset_file_3_reg/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#64 Warning
+Large setup violation  
+There is a large setup violation of -2.420 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[3]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#65 Warning
+Large setup violation  
+There is a large setup violation of -2.420 ns between game_processor/EA2_y_reg[1]/C (clocked by sys_clk_pin) and oled_display_mux/oled_data_reg[9]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#66 Warning
+Large setup violation  
+There is a large setup violation of -2.432 ns between advanced_mode/mode_reg[1]/C (clocked by sys_clk_pin) and score_decoder2/display_seg_reg[6]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#67 Warning
+Large setup violation  
+There is a large setup violation of -2.433 ns between advanced_mode/mode_reg[1]/C (clocked by sys_clk_pin) and score_decoder2/display_seg_reg[5]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#68 Warning
+Large setup violation  
+There is a large setup violation of -2.443 ns between advanced_mode/mode_reg[1]/C (clocked by sys_clk_pin) and score_decoder2/display_seg_reg[2]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#69 Warning
+Large setup violation  
+There is a large setup violation of -2.451 ns between advanced_mode/mode_reg[1]/C (clocked by sys_clk_pin) and score_decoder2/display_seg_reg[3]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#70 Warning
+Large setup violation  
+There is a large setup violation of -2.457 ns between advanced_mode/mode_reg[1]/C (clocked by sys_clk_pin) and score_decoder2/display_seg_reg[4]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#71 Warning
+Large setup violation  
+There is a large setup violation of -2.463 ns between advanced_mode/mode_reg[1]/C (clocked by sys_clk_pin) and score_decoder2/display_seg_reg[0]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#72 Warning
+Large setup violation  
+There is a large setup violation of -2.802 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/reset_file_2_reg/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#73 Warning
+Large setup violation  
+There is a large setup violation of -3.377 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/mode_reg[1]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#74 Warning
+Large setup violation  
+There is a large setup violation of -3.397 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/mode_reg[0]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#75 Warning
+Large setup violation  
+There is a large setup violation of -3.448 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[3]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#76 Warning
+Large setup violation  
+There is a large setup violation of -3.612 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[9]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#77 Warning
+Large setup violation  
+There is a large setup violation of -3.637 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[4]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#78 Warning
+Large setup violation  
+There is a large setup violation of -3.656 ns between mode_7/overall_mode_reg[3]/C (clocked by sys_clk_pin) and G2_mode_selector/mode_reg[2]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#79 Warning
+Large setup violation  
+There is a large setup violation of -3.720 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[10]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#80 Warning
+Large setup violation  
+There is a large setup violation of -3.819 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[11]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#81 Warning
+Large setup violation  
+There is a large setup violation of -3.847 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[15]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#82 Warning
+Large setup violation  
+There is a large setup violation of -3.929 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[13]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#83 Warning
+Large setup violation  
+There is a large setup violation of -3.948 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[7]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#84 Warning
+Large setup violation  
+There is a large setup violation of -3.967 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[6]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#85 Warning
+Large setup violation  
+There is a large setup violation of -3.971 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[2]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#86 Warning
+Large setup violation  
+There is a large setup violation of -3.974 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[0]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#87 Warning
+Large setup violation  
+There is a large setup violation of -4.025 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/data_reg[0]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#88 Warning
+Large setup violation  
+There is a large setup violation of -4.085 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[5]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#89 Warning
+Large setup violation  
+There is a large setup violation of -4.112 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/data_reg[2]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#90 Warning
+Large setup violation  
+There is a large setup violation of -4.265 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[8]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#91 Warning
+Large setup violation  
+There is a large setup violation of -4.266 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[14]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#92 Warning
+Large setup violation  
+There is a large setup violation of -4.277 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[1]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#93 Warning
+Large setup violation  
+There is a large setup violation of -4.384 ns between G2_M4_processor/abduction_reg[4]/C (clocked by sys_clk_pin) and G2_display_mux/oled_data_reg[12]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-16#94 Warning
+Large setup violation  
+There is a large setup violation of -4.508 ns between mode_7/overall_mode_reg[0]/C (clocked by sys_clk_pin) and ms_paint/data_reg[1]/D (clocked by sys_clk_pin). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
+Related violations: <none>
+
+TIMING-17#1 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/color_ship_a_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/color_ship_b_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/color_ship_c_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/color_ship_c_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/color_ship_c_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/color_ship_c_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/color_ship_c_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/color_ship_c_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/color_ship_c_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/color_ship_c_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/color_ship_c_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/color_ship_c_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/color_ship_c_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/count_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/count_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/count_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/count_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/count_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Warning
+Non-clocked sequential cell  
+The clock pin G2M4_renderer/count_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Warning
+Non-clocked sequential cell  
+The clock pin G2_M4_processor/btnC_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Warning
+Non-clocked sequential cell  
+The clock pin G2_M4_processor/btnD_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Warning
+Non-clocked sequential cell  
+The clock pin G2_M4_processor/btnL_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Warning
+Non-clocked sequential cell  
+The clock pin G2_M4_processor/btnR_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Warning
+Non-clocked sequential cell  
+The clock pin G2_M4_processor/btnU_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Warning
+Non-clocked sequential cell  
+The clock pin G2_M4_processor/tick2_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Warning
+Non-clocked sequential cell  
+The clock pin G2_M4_processor/tick_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/btnD_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/btnU_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/tick2_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/tick3_flip_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/tick3_flip_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/tick3_flip_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#33 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/tick3_flip_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#34 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/tick3_flip_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#35 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/tick3_flip_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#36 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/tick3_flip_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#37 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/tick3_flip_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#38 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/tick3_flip_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#39 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/tick3_flip_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#40 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/tick3_flip_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#41 Warning
+Non-clocked sequential cell  
+The clock pin G2_mode_selector/tick3_flip_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#42 Warning
+Non-clocked sequential cell  
+The clock pin G2_normal_render/anim_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#43 Warning
+Non-clocked sequential cell  
+The clock pin G2_normal_render/anim_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#44 Warning
+Non-clocked sequential cell  
+The clock pin G2_normal_render/exclaim_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#45 Warning
+Non-clocked sequential cell  
+The clock pin G2_normal_render/exclaim_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#46 Warning
+Non-clocked sequential cell  
+The clock pin G2_normal_render/frame_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#47 Warning
+Non-clocked sequential cell  
+The clock pin G2_normal_render/pic_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#48 Warning
+Non-clocked sequential cell  
+The clock pin G2_normal_render/pic_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#49 Warning
+Non-clocked sequential cell  
+The clock pin adv_mode_2_render/stars_mode_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#50 Warning
+Non-clocked sequential cell  
+The clock pin adv_mode_2_render/stars_mode_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#51 Warning
+Non-clocked sequential cell  
+The clock pin adv_mode_2_render/stars_mode_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#52 Warning
+Non-clocked sequential cell  
+The clock pin adv_mode_2_render/stars_mode_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#53 Warning
+Non-clocked sequential cell  
+The clock pin advanced_mode/btnD_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#54 Warning
+Non-clocked sequential cell  
+The clock pin advanced_mode/btnU_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#55 Warning
+Non-clocked sequential cell  
+The clock pin audioC/sample_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#56 Warning
+Non-clocked sequential cell  
+The clock pin audioC/sample_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#57 Warning
+Non-clocked sequential cell  
+The clock pin audioC/sample_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#58 Warning
+Non-clocked sequential cell  
+The clock pin audioC/sample_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#59 Warning
+Non-clocked sequential cell  
+The clock pin audioC/sample_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#60 Warning
+Non-clocked sequential cell  
+The clock pin audioC/sample_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#61 Warning
+Non-clocked sequential cell  
+The clock pin audioC/sample_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#62 Warning
+Non-clocked sequential cell  
+The clock pin audioC/sample_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#63 Warning
+Non-clocked sequential cell  
+The clock pin audioC/sample_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#64 Warning
+Non-clocked sequential cell  
+The clock pin audioC/sample_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#65 Warning
+Non-clocked sequential cell  
+The clock pin audioC/sample_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#66 Warning
+Non-clocked sequential cell  
+The clock pin audioC/sample_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#67 Warning
+Non-clocked sequential cell  
+The clock pin audioC/temp_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#68 Warning
+Non-clocked sequential cell  
+The clock pin audioC/temp_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#69 Warning
+Non-clocked sequential cell  
+The clock pin audioC/temp_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#70 Warning
+Non-clocked sequential cell  
+The clock pin audioC/temp_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#71 Warning
+Non-clocked sequential cell  
+The clock pin audioC/temp_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#72 Warning
+Non-clocked sequential cell  
+The clock pin audioC/temp_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#73 Warning
+Non-clocked sequential cell  
+The clock pin audioC/temp_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#74 Warning
+Non-clocked sequential cell  
+The clock pin audioC/temp_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#75 Warning
+Non-clocked sequential cell  
+The clock pin audioC/temp_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#76 Warning
+Non-clocked sequential cell  
+The clock pin audioC/temp_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#77 Warning
+Non-clocked sequential cell  
+The clock pin audioC/temp_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#78 Warning
+Non-clocked sequential cell  
+The clock pin audioC/temp_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#79 Warning
+Non-clocked sequential cell  
+The clock pin basic_over/bU_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#80 Warning
+Non-clocked sequential cell  
+The clock pin button_D/DFF_1/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#81 Warning
+Non-clocked sequential cell  
+The clock pin button_D/DFF_2/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#82 Warning
+Non-clocked sequential cell  
+The clock pin button_L/DFF_1/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#83 Warning
+Non-clocked sequential cell  
+The clock pin button_L/DFF_2/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#84 Warning
+Non-clocked sequential cell  
+The clock pin button_R/DFF_1/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#85 Warning
+Non-clocked sequential cell  
+The clock pin button_R/DFF_2/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#86 Warning
+Non-clocked sequential cell  
+The clock pin button_U/DFF_1/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#87 Warning
+Non-clocked sequential cell  
+The clock pin button_U/DFF_2/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#88 Warning
+Non-clocked sequential cell  
+The clock pin game_processor/despawn_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#89 Warning
+Non-clocked sequential cell  
+The clock pin game_processor/ex_ds_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#90 Warning
+Non-clocked sequential cell  
+The clock pin game_processor/laser_ds_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#91 Warning
+Non-clocked sequential cell  
+The clock pin game_processor/laser_s_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#92 Warning
+Non-clocked sequential cell  
+The clock pin game_processor/spawn_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#93 Warning
+Non-clocked sequential cell  
+The clock pin laser_power/laser_x_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#94 Warning
+Non-clocked sequential cell  
+The clock pin laser_power/laser_x_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#95 Warning
+Non-clocked sequential cell  
+The clock pin laser_power/laser_x_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#96 Warning
+Non-clocked sequential cell  
+The clock pin menu_mode_select/btnD_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#97 Warning
+Non-clocked sequential cell  
+The clock pin menu_mode_select/btnR_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#98 Warning
+Non-clocked sequential cell  
+The clock pin menu_mode_select/btnU_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#99 Warning
+Non-clocked sequential cell  
+The clock pin menu_mode_select/done_1_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#100 Warning
+Non-clocked sequential cell  
+The clock pin menu_mode_select/done_2_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#101 Warning
+Non-clocked sequential cell  
+The clock pin menu_mode_select/done_3_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#102 Warning
+Non-clocked sequential cell  
+The clock pin menu_mode_select/done_4_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#103 Warning
+Non-clocked sequential cell  
+The clock pin menu_mode_select/done_5_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#104 Warning
+Non-clocked sequential cell  
+The clock pin menu_mode_select/done_6_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#105 Warning
+Non-clocked sequential cell  
+The clock pin menu_mode_select/done_7_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#106 Warning
+Non-clocked sequential cell  
+The clock pin mode_1/btnC_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#107 Warning
+Non-clocked sequential cell  
+The clock pin mode_1/btnL_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#108 Warning
+Non-clocked sequential cell  
+The clock pin mode_1/btnR_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#109 Warning
+Non-clocked sequential cell  
+The clock pin mode_2/btnC_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#110 Warning
+Non-clocked sequential cell  
+The clock pin mode_2/btnL_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#111 Warning
+Non-clocked sequential cell  
+The clock pin mode_2/btnR_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#112 Warning
+Non-clocked sequential cell  
+The clock pin mode_3/btnC_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#113 Warning
+Non-clocked sequential cell  
+The clock pin mode_3/btnL_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#114 Warning
+Non-clocked sequential cell  
+The clock pin mode_3/btnR_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#115 Warning
+Non-clocked sequential cell  
+The clock pin mode_4/btnC_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#116 Warning
+Non-clocked sequential cell  
+The clock pin mode_4/btnL_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#117 Warning
+Non-clocked sequential cell  
+The clock pin mode_4/btnR_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#118 Warning
+Non-clocked sequential cell  
+The clock pin mode_5/btnC_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#119 Warning
+Non-clocked sequential cell  
+The clock pin mode_5/btnL_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#120 Warning
+Non-clocked sequential cell  
+The clock pin mode_5/btnR_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#121 Warning
+Non-clocked sequential cell  
+The clock pin mode_6/btnC_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#122 Warning
+Non-clocked sequential cell  
+The clock pin mode_6/btnL_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#123 Warning
+Non-clocked sequential cell  
+The clock pin mode_6/btnR_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#124 Warning
+Non-clocked sequential cell  
+The clock pin mode_7/btnC_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#125 Warning
+Non-clocked sequential cell  
+The clock pin mode_7/btnL_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#126 Warning
+Non-clocked sequential cell  
+The clock pin mode_7/btnR_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#127 Warning
+Non-clocked sequential cell  
+The clock pin mode_7/g1_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#128 Warning
+Non-clocked sequential cell  
+The clock pin mode_7/g2_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#129 Warning
+Non-clocked sequential cell  
+The clock pin mode_7/g3_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#130 Warning
+Non-clocked sequential cell  
+The clock pin mode_7/g4_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#131 Warning
+Non-clocked sequential cell  
+The clock pin ms_paint/btnD_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#132 Warning
+Non-clocked sequential cell  
+The clock pin ms_paint/btnL_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#133 Warning
+Non-clocked sequential cell  
+The clock pin ms_paint/btnR_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#134 Warning
+Non-clocked sequential cell  
+The clock pin ms_paint/btnU_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#135 Warning
+Non-clocked sequential cell  
+The clock pin p_tracker/btnL_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#136 Warning
+Non-clocked sequential cell  
+The clock pin p_tracker/btnR_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#137 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#138 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#139 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#140 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#141 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#142 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#143 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#144 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#145 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#146 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#147 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#148 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#149 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#150 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/count_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#151 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/current_max_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#152 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/current_max_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#153 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/current_max_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#154 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/current_max_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#155 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/current_max_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#156 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/current_max_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#157 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/current_max_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#158 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/current_max_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#159 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/current_max_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#160 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/current_max_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#161 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/current_max_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#162 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/current_max_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#163 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/mic_max_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#164 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/mic_max_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#165 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/mic_max_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#166 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/mic_max_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#167 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/mic_max_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#168 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/mic_max_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#169 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/mic_max_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#170 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/mic_max_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#171 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/mic_max_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#172 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/mic_max_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#173 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/mic_max_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#174 Warning
+Non-clocked sequential cell  
+The clock pin peak_amp/mic_max_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#175 Warning
+Non-clocked sequential cell  
+The clock pin random/EA1_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#176 Warning
+Non-clocked sequential cell  
+The clock pin random/EA2_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#177 Warning
+Non-clocked sequential cell  
+The clock pin reset_pulse/DFF_1/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#178 Warning
+Non-clocked sequential cell  
+The clock pin reset_pulse/DFF_2/Q_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#179 Warning
+Non-clocked sequential cell  
+The clock pin score_track/EA1_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#180 Warning
+Non-clocked sequential cell  
+The clock pin score_track/EA2_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#181 Warning
+Non-clocked sequential cell  
+The clock pin score_track/EA3_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#182 Warning
+Non-clocked sequential cell  
+The clock pin score_track/EB_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#183 Warning
+Non-clocked sequential cell  
+The clock pin score_track/laser_flip_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#184 Warning
+Non-clocked sequential cell  
+The clock pin segment_G2_mod/an_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#185 Warning
+Non-clocked sequential cell  
+The clock pin segment_G2_mod/an_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#186 Warning
+Non-clocked sequential cell  
+The clock pin segment_G2_mod/an_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#187 Warning
+Non-clocked sequential cell  
+The clock pin segment_G2_mod/an_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#188 Warning
+Non-clocked sequential cell  
+The clock pin segment_G2_mod/position_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#189 Warning
+Non-clocked sequential cell  
+The clock pin segment_G2_mod/position_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#190 Warning
+Non-clocked sequential cell  
+The clock pin segment_G2_mod/seg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#191 Warning
+Non-clocked sequential cell  
+The clock pin segment_G2_mod/seg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#192 Warning
+Non-clocked sequential cell  
+The clock pin segment_G2_mod/seg_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#193 Warning
+Non-clocked sequential cell  
+The clock pin segment_G2_mod/seg_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#194 Warning
+Non-clocked sequential cell  
+The clock pin segment_G2_mod/seg_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#195 Warning
+Non-clocked sequential cell  
+The clock pin segment_G2_mod/seg_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#196 Warning
+Non-clocked sequential cell  
+The clock pin segment_G2_mod/seg_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#197 Warning
+Non-clocked sequential cell  
+The clock pin segment_peak_mod/an_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#198 Warning
+Non-clocked sequential cell  
+The clock pin segment_peak_mod/an_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#199 Warning
+Non-clocked sequential cell  
+The clock pin segment_peak_mod/an_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#200 Warning
+Non-clocked sequential cell  
+The clock pin segment_peak_mod/an_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#201 Warning
+Non-clocked sequential cell  
+The clock pin segment_peak_mod/position_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#202 Warning
+Non-clocked sequential cell  
+The clock pin segment_peak_mod/position_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#203 Warning
+Non-clocked sequential cell  
+The clock pin segment_peak_mod/seg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#204 Warning
+Non-clocked sequential cell  
+The clock pin segment_peak_mod/seg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#205 Warning
+Non-clocked sequential cell  
+The clock pin segment_peak_mod/seg_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#206 Warning
+Non-clocked sequential cell  
+The clock pin segment_peak_mod/seg_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#207 Warning
+Non-clocked sequential cell  
+The clock pin segment_peak_mod/seg_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#208 Warning
+Non-clocked sequential cell  
+The clock pin segment_peak_mod/seg_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#209 Warning
+Non-clocked sequential cell  
+The clock pin segment_peak_mod/seg_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#210 Warning
+Non-clocked sequential cell  
+The clock pin segment_score_mod/an_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#211 Warning
+Non-clocked sequential cell  
+The clock pin segment_score_mod/an_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#212 Warning
+Non-clocked sequential cell  
+The clock pin segment_score_mod/an_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#213 Warning
+Non-clocked sequential cell  
+The clock pin segment_score_mod/an_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#214 Warning
+Non-clocked sequential cell  
+The clock pin segment_score_mod/position_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#215 Warning
+Non-clocked sequential cell  
+The clock pin segment_score_mod/position_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#216 Warning
+Non-clocked sequential cell  
+The clock pin segment_score_mod/seg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#217 Warning
+Non-clocked sequential cell  
+The clock pin segment_score_mod/seg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#218 Warning
+Non-clocked sequential cell  
+The clock pin segment_score_mod/seg_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#219 Warning
+Non-clocked sequential cell  
+The clock pin segment_score_mod/seg_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#220 Warning
+Non-clocked sequential cell  
+The clock pin segment_score_mod/seg_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#221 Warning
+Non-clocked sequential cell  
+The clock pin segment_score_mod/seg_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#222 Warning
+Non-clocked sequential cell  
+The clock pin segment_score_mod/seg_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#223 Warning
+Non-clocked sequential cell  
+The clock pin segment_select/an_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#224 Warning
+Non-clocked sequential cell  
+The clock pin segment_select/an_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#225 Warning
+Non-clocked sequential cell  
+The clock pin segment_select/an_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#226 Warning
+Non-clocked sequential cell  
+The clock pin segment_select/an_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#227 Warning
+Non-clocked sequential cell  
+The clock pin segment_select/position_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#228 Warning
+Non-clocked sequential cell  
+The clock pin segment_select/position_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#229 Warning
+Non-clocked sequential cell  
+The clock pin segment_select/seg_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#230 Warning
+Non-clocked sequential cell  
+The clock pin segment_select/seg_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#231 Warning
+Non-clocked sequential cell  
+The clock pin segment_select/seg_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#232 Warning
+Non-clocked sequential cell  
+The clock pin segment_select/seg_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#233 Warning
+Non-clocked sequential cell  
+The clock pin segment_select/seg_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#234 Warning
+Non-clocked sequential cell  
+The clock pin segment_select/seg_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#235 Warning
+Non-clocked sequential cell  
+The clock pin segment_select/seg_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#236 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#237 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#238 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#239 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#240 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#241 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#242 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#243 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#244 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#245 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#246 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#247 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#248 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#249 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#250 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#251 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#252 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#253 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#254 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#255 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#256 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#257 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#258 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#259 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#260 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#261 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#262 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#263 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#264 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#265 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#266 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#267 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/FSM_onehot_state_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#268 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#269 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#270 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#271 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#272 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#273 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#274 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#275 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#276 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#277 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#278 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#279 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#280 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#281 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#282 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#283 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#284 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#285 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#286 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#287 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/delay_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#288 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#289 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#290 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#291 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#292 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#293 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#294 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#295 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#296 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#297 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#298 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#299 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#300 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#301 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#302 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#303 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#304 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/frame_counter_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#305 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_bit_count_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#306 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_bit_count_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#307 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_bit_count_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#308 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_bit_count_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#309 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_bit_count_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#310 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_bit_count_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#311 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#312 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#313 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#314 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#315 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#316 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#317 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#318 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[16]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#319 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[17]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#320 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[18]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#321 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[19]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#322 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#323 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[20]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#324 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[21]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#325 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[22]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#326 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[23]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#327 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[24]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#328 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[25]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#329 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[26]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#330 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[27]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#331 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[28]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#332 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[29]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#333 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#334 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[30]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#335 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[31]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#336 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[32]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#337 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[33]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#338 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[34]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#339 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[35]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#340 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[36]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#341 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[37]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#342 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[38]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#343 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[39]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#344 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#345 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#346 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#347 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#348 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#349 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#350 Warning
+Non-clocked sequential cell  
+The clock pin unit_oled/spi_word_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on SW[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on SW[10] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on SW[11] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on SW[12] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on SW[13] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on SW[14] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on SW[15] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on SW[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on SW[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on SW[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on SW[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on SW[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on SW[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An input delay is missing on SW[7] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An input delay is missing on SW[8] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An input delay is missing on SW[9] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on JC[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on JC[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on JC[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on JC[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on JC[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An output delay is missing on JC[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An output delay is missing on JC[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An output delay is missing on JC[7] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An output delay is missing on J_MIC3_Pin1 relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An output delay is missing on J_MIC3_Pin4 relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An output delay is missing on an[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An output delay is missing on an[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#29 Warning
+Missing input or output delay  
+An output delay is missing on an[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#30 Warning
+Missing input or output delay  
+An output delay is missing on an[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#31 Warning
+Missing input or output delay  
+An output delay is missing on led[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#32 Warning
+Missing input or output delay  
+An output delay is missing on led[10] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#33 Warning
+Missing input or output delay  
+An output delay is missing on led[11] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#34 Warning
+Missing input or output delay  
+An output delay is missing on led[12] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#35 Warning
+Missing input or output delay  
+An output delay is missing on led[13] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#36 Warning
+Missing input or output delay  
+An output delay is missing on led[14] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#37 Warning
+Missing input or output delay  
+An output delay is missing on led[15] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#38 Warning
+Missing input or output delay  
+An output delay is missing on led[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#39 Warning
+Missing input or output delay  
+An output delay is missing on led[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#40 Warning
+Missing input or output delay  
+An output delay is missing on led[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#41 Warning
+Missing input or output delay  
+An output delay is missing on led[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#42 Warning
+Missing input or output delay  
+An output delay is missing on led[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#43 Warning
+Missing input or output delay  
+An output delay is missing on led[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#44 Warning
+Missing input or output delay  
+An output delay is missing on led[7] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#45 Warning
+Missing input or output delay  
+An output delay is missing on led[8] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#46 Warning
+Missing input or output delay  
+An output delay is missing on led[9] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#47 Warning
+Missing input or output delay  
+An output delay is missing on seg[0] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#48 Warning
+Missing input or output delay  
+An output delay is missing on seg[1] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#49 Warning
+Missing input or output delay  
+An output delay is missing on seg[2] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#50 Warning
+Missing input or output delay  
+An output delay is missing on seg[3] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#51 Warning
+Missing input or output delay  
+An output delay is missing on seg[4] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#52 Warning
+Missing input or output delay  
+An output delay is missing on seg[5] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-18#53 Warning
+Missing input or output delay  
+An output delay is missing on seg[6] relative to clock(s) sys_clk_pin
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch mic_range/mic_out_reg[0] cannot be properly analyzed as its control pin mic_range/mic_out_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch mic_range/mic_out_reg[1] cannot be properly analyzed as its control pin mic_range/mic_out_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch mic_range/mic_out_reg[2] cannot be properly analyzed as its control pin mic_range/mic_out_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch mic_range/mic_out_reg[3] cannot be properly analyzed as its control pin mic_range/mic_out_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch mic_range/mic_out_reg[4] cannot be properly analyzed as its control pin mic_range/mic_out_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[0] cannot be properly analyzed as its control pin paint_render/current_color_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[10] cannot be properly analyzed as its control pin paint_render/current_color_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[11] cannot be properly analyzed as its control pin paint_render/current_color_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[12] cannot be properly analyzed as its control pin paint_render/current_color_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[13] cannot be properly analyzed as its control pin paint_render/current_color_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[14] cannot be properly analyzed as its control pin paint_render/current_color_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[15] cannot be properly analyzed as its control pin paint_render/current_color_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[1] cannot be properly analyzed as its control pin paint_render/current_color_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[2] cannot be properly analyzed as its control pin paint_render/current_color_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[3] cannot be properly analyzed as its control pin paint_render/current_color_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[4] cannot be properly analyzed as its control pin paint_render/current_color_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[5] cannot be properly analyzed as its control pin paint_render/current_color_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[6] cannot be properly analyzed as its control pin paint_render/current_color_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[7] cannot be properly analyzed as its control pin paint_render/current_color_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[8] cannot be properly analyzed as its control pin paint_render/current_color_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch paint_render/current_color_reg[9] cannot be properly analyzed as its control pin paint_render/current_color_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[0] cannot be properly analyzed as its control pin paint_render/data_color_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[10] cannot be properly analyzed as its control pin paint_render/data_color_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[11] cannot be properly analyzed as its control pin paint_render/data_color_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[12] cannot be properly analyzed as its control pin paint_render/data_color_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[13] cannot be properly analyzed as its control pin paint_render/data_color_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[14] cannot be properly analyzed as its control pin paint_render/data_color_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[15] cannot be properly analyzed as its control pin paint_render/data_color_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[1] cannot be properly analyzed as its control pin paint_render/data_color_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[2] cannot be properly analyzed as its control pin paint_render/data_color_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[3] cannot be properly analyzed as its control pin paint_render/data_color_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[4] cannot be properly analyzed as its control pin paint_render/data_color_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[5] cannot be properly analyzed as its control pin paint_render/data_color_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[6] cannot be properly analyzed as its control pin paint_render/data_color_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[7] cannot be properly analyzed as its control pin paint_render/data_color_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[8] cannot be properly analyzed as its control pin paint_render/data_color_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch paint_render/data_color_reg[9] cannot be properly analyzed as its control pin paint_render/data_color_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch peak_range/mic_out_reg[0] cannot be properly analyzed as its control pin peak_range/mic_out_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch peak_range/mic_out_reg[1] cannot be properly analyzed as its control pin peak_range/mic_out_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch peak_range/mic_out_reg[2] cannot be properly analyzed as its control pin peak_range/mic_out_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch peak_range/mic_out_reg[3] cannot be properly analyzed as its control pin peak_range/mic_out_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch peak_range/mic_out_reg[4] cannot be properly analyzed as its control pin peak_range/mic_out_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+
