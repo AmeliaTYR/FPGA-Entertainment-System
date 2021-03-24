@@ -1,19 +1,5 @@
 `timescale 1ns / 1ps
 
-//////////////////////////////////////////////////////////////////////////////////
-//
-//  FILL IN THE FOLLOWING INFORMATION:
-//
-//  LAB SESSION DAY: MONDAY P.M
-//
-//  STUDENT A NAME: Tan Wei Shuang
-//  STUDENT A MATRICULATION NUMBER: A0205070X
-//
-//  STUDENT B NAME: Tan Yan Rong Amelia
-//  STUDENT B MATRICULATION NUMBER: A0205132Y 
-//
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module Top_Student (
     // MIC
